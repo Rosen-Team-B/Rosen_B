@@ -36,7 +36,7 @@ Summary of the meeting:
 Other terms not understood: 
 
 - MX? sealing
-- blender? Not a really important piece of software
+- blender? Not a really important piece of software, but important for data collection perhaps?
 
 ### What Rosen wants from us:
 
@@ -49,7 +49,7 @@ Other terms not understood:
 - Focus on software eng. not algorithm (rosen don’t have enough data to trian the algo yet); algo later in the semester maybe if we are ahead of the schedule
 - This code will be used going forward in ROSEN, so code should be
     - clean code: understandable (give documentation or good comments for ppl knowing python easy)
-    - backend: python (so their data scientist can take a look if anything)
+    - backend: python (so their data scientist can take a look at anything in the future)
 
 ### Some ideas of the web app:
 
@@ -61,7 +61,7 @@ Other terms not understood:
 
 ### About algorithms:
 
-- Basic concepts about their algorithms: Machine learning models (in trainning) : active learning [not in the scope of our project]: display imgae > give labels > propose new places to be interested (to be notice) in the pipeline.
+- Basic concepts about their algorithms: Machine learning models (in training) : active learning [not in the scope of our project]: display imgae > give labels > propose new places to be interested (to be notice) in the pipeline.
 - There will be 2 algorithms:
     - (it’s online) VGG16: ***object detection and classification algorithm*** which is able to classify 1000 images of 1000 different categories with 92.7% accuracy
     - there’s another one: not important to us  —- stick to vgg16 for now (since algorithm is not the focus)
@@ -69,7 +69,7 @@ Other terms not understood:
 
 ### Q&A:
 
-- Security issue: Only rosen users can use this (this part of the website will be integrated to the original website), making a new one may cause collision
+- Security issue: Only Rosen users can use this (this part of the website will be integrated to the original website), making a new one may cause collision
 
 ### Closing discussions:
 
@@ -82,33 +82,6 @@ Next Meeting:
 
 - Matthias will add all members in all teams into a MS Team as a communication channel with Rosen for exchange data and quick questions before meetings
 - Client liaisons should collect email from all team members to get into MS teams
-- Future meetings online, in-person on campus, or in-person at the downtown office can be discussed and arranged.
-- The client meeting will be set on every Tue. 13:30-14:30
-- The date of the next meeting: TBA (will be discussed on MS Team)
-
-### **About algorithms:**
-
-- Basic concepts about their algorithms: Machine learning models (in trainning) : active learnning [not in the scope of our project]: display imgae > give labels > propose new places to be intersted (to be notice) in the pipeline.
-- There will be 2 algorithms:
-    - (it’s online) VGG16: ***object detection and classification algorithm*** which is able to classify 1000 images of 1000 different categories with 92.7% accuracy
-    - there’s another one: not important to us —- stick to vgg16 for now (since algo is not the focus)
-- Rosen will give us data on…..? the images they have…? …vectors of image to train…?
-
-### **Q&A:**
-
-- Security issue: Only rosen users can use this (this part of the website will be intergrated to the original website), making a new one may cause collision
-
-### **Closing discussions:**
-
-Agreements:
-
-- 10hrs per person a week
-- Every 2 week for a report to match the scrum flow
-
-Next Meeting:
-
-- Matthias will add all members in all teams into a MS Team as a communication channel with Rosen for exchane data and quick questions before meetings
-- Client liasons should collect email from all team members to get into MS teams
 - Future meetings online, in-person on campus, or in-person at the downtown office can be discussed and arranged.
 - The client meeting will be set on every Tue. 13:30-14:30
 - The date of the next meeting: TBA (will be discussed on MS Team)
