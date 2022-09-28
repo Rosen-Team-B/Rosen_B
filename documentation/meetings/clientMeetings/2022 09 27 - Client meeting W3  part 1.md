@@ -1,15 +1,14 @@
-# 2022/09/27 - Client meeting W3
+# 2022/09/27 - Client Meeting W3
 
-Created: September 27, 2022 12:00 AM
-Created by: Anonymous
+Summary: First meeting with client discussing project
 
 Meeting time: Sept. 27th 13:00-14:00
 
-Meeting location: Com 007
+Meeting location: COM 007
 
 Attendees: Rosen: Matthias; Team B: All members attended
 
-Note Taker: Lydia
+Note Taker: Lydia, Ali
 
 Summary of the meeting:
 
@@ -31,7 +30,7 @@ Summary of the meeting:
 - Inspection for any abnormality such as leaves, plastic bags, connection cracks between pipeline that would result in leakage, fish, etc.
 - Inspection also for places to check such as man whole,
 - Info about water pipelines not on the official website since this part is still in production, and only in oil pipeline on the website
-- Looking for a web-app that will integrate with their current workflow that will facilitate.
+- Looking for a web-app that will integrate with their current workflow that will facilitate the finding of the certain unique objects found in the pipeline
 
 Other terms not understood: 
 
@@ -43,20 +42,25 @@ Other terms not understood:
 - Design a web app that will be used by their data scientists (who know python) to input a random picture and display images from the db, so they can classify images and train their machine algorithm which inspects within the water pipelines.
 - The target user for this web app will be Rosen’s data scientist, so any future discussion of users refers to their data scientists.
 - The classes are not predefined. They are defined by the user’s decisions, supported by an active learning algorithm.
+- Workflow should look like so:
+    - The user (data scientist on network) will provide a sample image of object, and ML algorithm will return likely matches.
+    - User will then select second subset of refined images that will train the algorithm. (Tag these images and save them, possible feature)
+    - Model will return images a second time, and user can view them.
 
 → Example: I have an image of a leave, help me find all the leaves in the water pipeline.
 
-- Focus on software eng. not algorithm (rosen don’t have enough data to trian the algo yet); algo later in the semester maybe if we are ahead of the schedule
-- This code will be used going forward in ROSEN, so code should be
-    - clean code: understandable (give documentation or good comments for ppl knowing python easy)
-    - backend: python (so their data scientist can take a look at anything in the future)
+- Focus on software eng. not algorithm (rosen don’t have enough data to train the algo yet); also later in the semester maybe if we are ahead of the schedule.
+- This code will be used going forward in ROSEN, so code should be:
+    - Clean; understandable (give documentation or good comments for ppl knowing python easy so expansion is easy)
+    - Backend: Python (so their data scientist can take a look at anything in the future)
 
 ### Some ideas of the web app:
 
-- using this image (random image), can you find all the image similar in the db, display, and user click on some image that is correct ( to train the algorithm), submit to retrain the algorithm
+- using this image (random image), can you find all the image similar in the db, display, and user click on some image that is correct ( to train the algorithm), submit to retrain/refine the algorithm
 - Users may want to download the list of image or the location of where the images are on the db given a random image (target: like fish)
 - Efficiency is important: thousands of image in the db and to be display in the frontend
-- 2 person on the same data at the same time (Rosen not thought about it, maybe we need to restrict)
+- Multi-user access
+    - Need to verify if two users can access the same data at the same time, possible feature?
 - Mentioned using Python as backend language for expansion when project is over?
 
 ### About algorithms:
