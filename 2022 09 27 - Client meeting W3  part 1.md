@@ -56,4 +56,59 @@ Other terms not understood:
 - using this image (random image), can you find all the image similar in the db, display, and user click on some image that is correct ( to train the algorithm), submit to retrain the algorithm
 - Users may want to download the list of image or the location of where the images are on the db given a random image (target: like fish)
 - Efficiency is important: thousands of image in the db and to be display in the frontend
--
+- 2 person on the same data at the same time (Rosen not thought about it, maybe we need to restrict)
+- Mentioned using Python as backend language for expansion when project is over?
+
+### About algorithms:
+
+- Basic concepts about their algorithms: Machine learning models (in trainning) : active learning [not in the scope of our project]: display imgae > give labels > propose new places to be interested (to be notice) in the pipeline.
+- There will be 2 algorithms:
+    - (it’s online) VGG16: ***object detection and classification algorithm*** which is able to classify 1000 images of 1000 different categories with 92.7% accuracy
+    - there’s another one: not important to us  —- stick to vgg16 for now (since algorithm is not the focus)
+- Rosen will give us data on…..? the images they have…? …vectors of image to train…?
+
+### Q&A:
+
+- Security issue: Only rosen users can use this (this part of the website will be integrated to the original website), making a new one may cause collision
+
+### Closing discussions:
+
+Agreements:
+
+- 10hrs per person a week
+- Every 2 week for a report to match the scrum flow
+
+Next Meeting:
+
+- Matthias will add all members in all teams into a MS Team as a communication channel with Rosen for exchange data and quick questions before meetings
+- Client liaisons should collect email from all team members to get into MS teams
+- Future meetings online, in-person on campus, or in-person at the downtown office can be discussed and arranged.
+- The client meeting will be set on every Tue. 13:30-14:30
+- The date of the next meeting: TBA (will be discussed on MS Team)
+
+### **About algorithms:**
+
+- Basic concepts about their algorithms: Machine learning models (in trainning) : active learnning [not in the scope of our project]: display imgae > give labels > propose new places to be intersted (to be notice) in the pipeline.
+- There will be 2 algorithms:
+    - (it’s online) VGG16: ***object detection and classification algorithm*** which is able to classify 1000 images of 1000 different categories with 92.7% accuracy
+    - there’s another one: not important to us —- stick to vgg16 for now (since algo is not the focus)
+- Rosen will give us data on…..? the images they have…? …vectors of image to train…?
+
+### **Q&A:**
+
+- Security issue: Only rosen users can use this (this part of the website will be intergrated to the original website), making a new one may cause collision
+
+### **Closing discussions:**
+
+Agreements:
+
+- 10hrs per person a week
+- Every 2 week for a report to match the scrum flow
+
+Next Meeting:
+
+- Matthias will add all members in all teams into a MS Team as a communication channel with Rosen for exchane data and quick questions before meetings
+- Client liasons should collect email from all team members to get into MS teams
+- Future meetings online, in-person on campus, or in-person at the downtown office can be discussed and arranged.
+- The client meeting will be set on every Tue. 13:30-14:30
+- The date of the next meeting: TBA (will be discussed on MS Team)
