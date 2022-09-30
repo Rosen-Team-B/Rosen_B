@@ -37,9 +37,3 @@ Questions for the client:
 - What are the desired features?
 - Visual theming?
 - Blender implementation?
-
----
-
-Summary of the meeting:
-
----
