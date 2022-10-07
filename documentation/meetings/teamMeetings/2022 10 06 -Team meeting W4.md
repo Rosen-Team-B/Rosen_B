@@ -10,9 +10,7 @@ Note Taker: Jeena
 
 # Meeting Notes
 
-L I will be there and take notes when u cant but otherwise you take notes AND talk
 
-you okay with thtat?
 
 - During client meetings, Lydia and Ali will be present. Ali is in charge of talking and note-taking. Lydia is there for support and will take notes when Ali is unable to. Jeena and Brenden can join, if they can only attend a portion of the meeting, the client will be informed beforehand.
 - Next client meeting, heavily recommend the client to choose the framework we suggest
