@@ -1,1 +1,15 @@
 
+meeting date:
+
+ppl frm out team: ex Jeena
+
+—
+
+team c questions’ ans:
+
+- user specify: viedo or pic
+- db: can be video or pic as well
+- [ ]  question: how do we know a video contains a fish, and the length of the video? We need to know the output from the algo
+- The client expects the web app to be running locally, so that they can access it, and so the user will not swap to new devices, no need for cloud storage?
+- [ ]  question: where’re the pics & video at current?
+
