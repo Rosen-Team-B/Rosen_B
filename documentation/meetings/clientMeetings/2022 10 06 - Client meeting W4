@@ -16,22 +16,22 @@ Summary of the meeting:
 
 Team C Q&A:
 
-- user specify: viedo or pic
-- db: can be video or pic as well
+- User specificed: Video or Picture that they want to see
+- DB: Can store photo or video
 - [ ]  question: how do we know a video contains a fish, and the length of the video? We need to know the output from the algo
 - The client expects the web app to be running locally, so that they can access it, and so the user will not swap to new devices, no need for cloud storage?
 - [ ]  question: where’re the pics & video at current?
-- Currently, the data is stored on a server network, and the data scientist is allowed to store info on the server (the user has already has privileges ) , BUT rosen won’t give us the access. They want us to start db or our own file system, and they will start with this system that we provide afterward)
-- The vgg16 will be the algorithm we use?
-    - Linked List? Each node is an image? Still confusing
+- Currently, the data is stored on a server network, and the data scientist is allowed to store info on the server (the user has already has privileges ) , BUT rosen won’t give us the access. They want us to start database or our own file system, and they will start with this system that we provide afterward)
+- The VGG16 will be the algorithm we use?
+    - Linked List? Each node is an image? Still confusing?
 - Perform AL timing testing to check efficiency of AL algorithm
 - Optionally, they want us to use a blender file to render a video, and then we should add additional functionality to the file, more fishes, more surfaces etc.
     - Making a function/button that automated the generation of the pipeline
-    - Could help with dta generation for training the Algo.
+    - Could help with data generation for training the algorithm
 - The web server has  the same access rights as the server
 - Further evolve the website, by using python
 - Internally they use Flake8, and Black
-- They use vgg16, provides turns images into vectors, won't do active learning, and
+- They use vgg16, provides turns images into vectors, won't do active learning, and so we need to find the actual algorithm.
 
 ---
 
