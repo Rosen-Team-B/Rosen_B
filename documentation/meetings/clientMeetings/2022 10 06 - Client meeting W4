@@ -30,6 +30,8 @@ Team C Q&A:
     - Could help with data generation for training the algorithm
 - The web server has  the same access rights as the server
 - Further evolve the website, by using python
+- Client will not provide a cloud-based server to host web-app, making this slightly more confusing
+    - Recommended using the server access on their local machines, to access the photos/videos that Rosen has
 - Internally they use Flake8, and Black
 - They use vgg16, provides turns images into vectors, won't do active learning, and so we need to find the actual algorithm.
 
