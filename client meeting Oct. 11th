@@ -1,1 +1,8 @@
+# 2022/10/11 - Client Meeting W5
 
+Created: October 11, 2022
+Created by: Ali, Lydia
+
+- Currently, there is no difference between admin users and normal users
+    - We already know that there will be a difference between them in the future, so keep in mind that different privileges might occur.
+    - Different actions for different roles.
