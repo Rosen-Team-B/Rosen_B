@@ -20,3 +20,7 @@ Created by: Ali, Lydia
 
 - Database is allowed for the project, and we can use the anyone’s that fit within our tech stack.
 - The other option for not using Blender is actually get access to database
+    - Concern with how real-life videos and blender rendering might cause the algorithm to not work efficiently.
+    - However, Blender is easier to work with because there are already labels that we can use.
+    - Further development will use Blender.
+- The user is NOT uploading a vector of photos
