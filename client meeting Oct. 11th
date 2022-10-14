@@ -17,3 +17,6 @@ Created by: Ali, Lydia
 - Maybe it’s sufficient enough to store the label and the video path/name.
 - Two different labels can be assigned to the same video.
 - Django, ReactJS will be used
+
+- Database is allowed for the project, and we can use the anyone’s that fit within our tech stack.
+- The other option for not using Blender is actually get access to database
