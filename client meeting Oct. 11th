@@ -12,3 +12,8 @@ Created by: Ali, Lydia
         - Take a baseline reading, how much time does it take to filter through by hand
         - 
     - Accuracy of the learning algorithm, how good, how many iterations do we need to find all instances of the objects
+
+- The sample image is the only format that the user is expected to submit (only that).
+- Maybe it’s sufficient enough to store the label and the video path/name.
+- Two different labels can be assigned to the same video.
+- Django, ReactJS will be used
