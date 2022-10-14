@@ -6,3 +6,9 @@ Created by: Ali, Lydia
 - Currently, there is no difference between admin users and normal users
     - We already know that there will be a difference between them in the future, so keep in mind that different privileges might occur.
     - Different actions for different roles.
+
+- Performance
+    - Execution time should be low, no fixed time for this, keep in mind that this interactive
+        - Take a baseline reading, how much time does it take to filter through by hand
+        - 
+    - Accuracy of the learning algorithm, how good, how many iterations do we need to find all instances of the objects
