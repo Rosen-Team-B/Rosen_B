@@ -37,17 +37,21 @@
    Completion by the end of January
 
 5. Creation and Implementation of Active Learning Algorithm
-   This
+   Creation of active learning algorithm will be done in Python
+   Research into libraries for algorithm must be done
+   Implement the algorithm with VGG16 and web app
+   Start in the beginning of February with completion in about 1.5 months
 
 6. Post Algorithm Implementation
    After initial algorithm classification, users can then manually edit, add, or reclassify classes
    Adding images after initial process will update the and re-run the algorithm on only added images
    Ability to save current work as a project
-   Completion by the mid/end December
+   Completion three weeks before hand off
 
 7. Deployment
    Compile project
    Ensure the project can be ran with included contents
+   Completion a week before course end
 
 ## Testing
 
