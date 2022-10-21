@@ -31,7 +31,7 @@ A:
 
 when we began, i mentioned we might present
 
-there was miscommu
+there was miscommunication
 
 I said on monday we present req presentation, but agenda changed
 
@@ -41,7 +41,7 @@ we should have figured out
 
 B and L were there for
 
-We have uissues with algo implememtation
+We have issues with algorithm implememtation
 
 we believe its a lot of work
 
@@ -77,7 +77,7 @@ A|: thats the update
 
 we’re getting better understanding of algo
 
-B did you look at algo docu
+B did you look at algo documentation
 
 B:
 
@@ -121,11 +121,11 @@ im not clear about what the algo actually outputs
 
 L i will mention
 
-B: i thought we agreed to sclae down away from algo completely
+B: i thought we agreed to scale down away from algo completely
 
 A: this is the the part im confused i specifically mentioned that questions will be about database
 
-i mentioned in beginn that scope of project
+i mentioned it in the beginning that the scope of project
 
 If scope is something is something we need to clarify
 
@@ -145,7 +145,7 @@ B i feel like im missing something
 
 L: I had my assumption about it
 
-B” i just dont know what the new scale
+B: i just dont know what the new scale
 
 A: L do you understand
 
@@ -161,11 +161,11 @@ after putting in the database
 
 our job is to help the data scientists
 
-what ds do is tey want to identify fish in the inseoction they upload image of the fish upload it to our system
+what they do is they want to identify fish in the inspection they upload image of the fish upload it to our system
 
-once the data scicentist image goes to backend, algo will
+once the data scientist uploads the image, it goes to backend, algo will vectorize it
 
-data bse includes images
+data base includes images
 
 it will query 10 images from db
 
@@ -189,7 +189,7 @@ so this happens
 
 multiple iterations
 
-stop point
+stop point when the data scientist decide to stop
 
 when it should stop when all images sent back are correct or when data scientist is done
 
@@ -243,7 +243,7 @@ i think its scaled down on that case
 
 A:
 
-im ok with going through
+I'm ok with going through
 
 L: online pyhton packages
 
