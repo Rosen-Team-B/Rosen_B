@@ -55,4 +55,7 @@ Iteration:
 10 images back: should be define (user or hard code?) 
 => he doesn't care the number per display as long as is user friendly. Can be flexible.
 
-
+Stop of iterations? (When is the algorithm with 1 target consider done training?)
+->user decides or classify all correct
+-> display model info to the user, so they know when to stop (suggestion: info on performace of the label data)
+-> there are 496 dimentions in vgg16; the algorithm cannot be displayed as in a 2D graph 
