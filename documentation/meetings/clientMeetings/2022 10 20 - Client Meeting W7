@@ -52,4 +52,7 @@ Iteration:
 ->second: train on 11(1+10sent back) images
 -> every iteration is defined by clicking "submit"
 
+10 images back: should be define (user or hard code?) 
+=> he doesn't care the number per display as long as is user friendly. Can be flexible.
+
 
