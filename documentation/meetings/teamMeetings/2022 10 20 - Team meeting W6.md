@@ -260,3 +260,155 @@ what we emphasize on is API
 in the future they can use API of algo
 
 B does that answer your concern
+
+B does that answer your concern
+
+B: okay
+
+ i dont think scope was scaled down
+
+we realized what the project was
+
+L: Im not trying to blame
+
+i blame rosen they never fully explained anything
+
+at least now we know blender is optional
+
+B: we can find videos online
+
+A: we can 
+
+B: moving away from blender
+
+you werent there
+
+I mentioned the scale should be either web app or algo
+
+i have lot of concern about web app in general
+
+idk how fast or long it will take
+
+Gema said that ROSEN cam eto them asking  for an algo and a web app
+
+i criticized them for webapp 
+
+A: I agree what youre sayong has some merit
+
+one the idea of capstone
+
+but i dont think theres a point 
+
+i think to be frank its redundant
+
+we know what we have to do
+
+the least we can do we can work out react js and django
+
+we are trying to get a better angle on vgg16
+
+i think even if we dont get it done, as long as we keep doing stuff, if we dont finish project its okay
+
+i dont think sitting around will do anything
+
+we cant wait it out
+
+its starting to get 
+
+we’re getting behind
+
+L We can get started on what we know
+
+A: remember you have teams as a resource
+
+we have teams for a reason
+
+just text on there
+
+maybe
+
+A: get started on webapp so we have SOMETHING
+
+L: can i handle this
+
+if you have concerns 
+
+what you want to hear
+
+i know your concern what would you want to hear what do you want to acheive
+
+B: i just want to know if we want to scale it down
+
+do we want to scale it down further
+
+i didnt say we dont start
+
+A: you re not saying, to whole group, weve been confused for two weeks
+
+L: the focus, shift to get started not just confusion
+
+B, i think the scope is scaled down our knowledge
+
+our impression of project was big,
+
+can we finish this i talked to other people and other teams
+
+we will be lucky 
+
+ambiguity of completeion is universal
+
+A and I think scope is scaled down
+
+my understanding of project is we can make really shitty one
+
+Data scientist determine when to stop iteration
+
+We can just use that function
+
+this thing is vague, i dont think its a problem
+
+maybe the algo can be really shitty 
+
+and the website will be 
+
+B: i get it
+
+Im concerned by the time we finish web app we dont have time to do algo
+
+this is personal
+
+i like to do things one by one
+
+L: i think you mentioned i am going to remake milestones and order of project
+
+Multiple things happening in the project
+
+i am pm, so its not your problem, it is mine
+
+i think learning algo wont be put to the end
+
+algo is easy to make but training takes time
+
+i asked N?? it took 2 days
+
+they want skeleton 
+
+they will train it themselves
+
+B: i got that
+
+same way that matt talked about DB
+
+they will uproot and point at server
+
+L: that was a suggestion
+
+Already debunked the solution, copy paste method
+
+write a good user manual that is not focus of project
+
+A: it seems like youre not comfortable
+
+B: ithink we should do only the webapp
+
+A: L said the milestones are changed, L wants to take resp 
