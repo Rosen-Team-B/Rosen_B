@@ -63,3 +63,10 @@ Stop of iterations? (When is the algorithm with 1 target consider done training?
 AL: yes other object
 Start from algo from 0
 -> Once this algorithm is done training on fish, achieve it. And reset the algorithm to train on cracks...
+
+2 people(users/data scientists) training a fish? or only 1. (an object a person or an object train by multiple people?)
+-> they work in teams.
+-> everyone gets a different section of the inspection video. (i.g. person1: 0- 10min timestamp; persson2: 11-20mins ...)
+-> person1 will be training on fish & archieve. Then training cracking & archieve...
+-> person2 will do the same.
+-> the archieved fish-algo from person1 should be shared with person2 before person2 starts training his algo on fish.
