@@ -13,3 +13,8 @@ Created by: Ali Ladha, Lydia Lin
 - There are two different ways we can specify the number of images that are returned:
     - Statically:
     - Dynamically: Scroll infinitely to get new images as they scroll down, only load as they scroll down.
+- The user will decide when to stop the back-and-forth algorithm running because after some time, either it will get so good that the classification will be correct, or they are satisfied with how detailed it is
+- It is likely that the user will try to identify different things, such as fishes/AMEX Sealing, and so we could reset it, or BETTER, choose to save that instance of an object.
+- A centralised DB that is hosted on the Rosen Network, or just a local DB,
+- There are security reasons why running the script on their local systems, because of ROSEN security.
+- So the algorithm can be trained/tested on separate videos found online
