@@ -59,3 +59,7 @@ Stop of iterations? (When is the algorithm with 1 target consider done training?
 ->user decides or classify all correct
 -> display model info to the user, so they know when to stop (suggestion: info on performace of the label data)
 -> there are 496 dimentions in vgg16; the algorithm cannot be displayed as in a 2D graph 
+
+AL: yes other object
+Start from algo from 0
+-> Once this algorithm is done training on fish, achieve it. And reset the algorithm to train on cracks...
