@@ -101,3 +101,31 @@ Optional Non-Functional Requirements
 (optional) Enhanced water pipeline inspection generator.
 (optional) Classification performance for self-defined classification tasks.
 
+
+Milestone:
+M1:
+Requirements report (due Oct 21th)
+M2:
+UI design (due Nov 4th)
+
+M3: (6 weeks)
+1 week framework setup (mainly frontend; backend if optional, but we have to look into how to integrate them into 1 repo) + decide on component library
+3 week make share-able components + Nov. 21th: Peer testing report I + video demo (wireframe, design, wherever we are)
+2 week have all pages up - skeleton
+1 week  routing & styling & checking clickables (fallback week)
+
+(M3 or M4 depend on time)
+Find videos & write script to auto generate images out of them
+Setup backend, & db (make models) & add images into db
+
+
+M4 (algorithm – quick) 3
+Make algorithm:  2 week: research python library + make the algorithm  (with vgg16)
+Write APIs for the algorithm
+
+M5 (backend + frontend wrap up) 1.5+1week
+(back) 2 Write APIs to handle requests + Write API calls to request to the Algorithm
+(front) Write API calls for the frontend (1) + pages/components to handle the user iterations (3) + Mar. 6th: Peer testing report II + video demo
+(back) functions to retrain the model + API calls to the algorithm/ (algor) APIs- modifies (1)
+
+M6 wrap up and deployment documents
