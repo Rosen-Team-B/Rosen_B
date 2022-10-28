@@ -11,3 +11,6 @@
 #Ignoring all the markdown and class files
 *.md
 **/*.class
+
+node_modules
+build
