@@ -26,37 +26,38 @@ Tags: Client Meeting
 ---
 
 UI:
-- Display Reference photo (or the class name) -> class name is preferred
--up to the algo: to query from the db (most uncertain, closes,...)
--have a function to remove incorrect label from the previous function
--return only fishes?
--algo will still learn if you label all non-fish
--> showing more for this iteration
+- Display reference photo (or the Class name/Label) -> Class name is preferred
+- Up to the algorithm: 
+    - Queries from the db (most uncertain, closes,...)
+- Have functionality to remove incorrect label from the previous iteration
+    - Return only fishes? or return both?
+- Algorithm will still learn if you label all non-objects
+    - Showing more for this iteration, as input hasn't changed
 
-Vgg16:
-- output 4096 vector. This vector is for the input of the AL algo.
-- not the 1000 layer.
+VGG-16:
+- Output 4096 vector. This vector is for the input of the AL algo.
+    - Not the 1000 layer.
+- Do research on Google “4096 vgg16”
+- Can MongoDB store image vectors?
+- O-ne layer of vgg16: 
+    - The output should be from the 2nd or 3rd last layers
+- Then feed it to the algorithm
 
-- plz google “4096 vgg16”
+Prediction vs Display:
+- The algorithm will query from the db?
+- Query on the vector
+- Algorithm query, vector is not feed to the algo
+- Strategies to choose modAL: pick one, but don't use random.
+- 1 strategy: point closes to the hyperplane
 
-- mogodb store vector
+Feedback for the report
+- Algorithm base (not the data)
+- Fast overview all the data
+- Data evaluator: 
+    - Look from start to end; 
+    - Find for specific images; with this program , distribute of the video
 
-prediction vs display:
-->the algorithm will query from the db?
-->query on the vector
-->algo query, vector is not feed to the algo.
-->strategies to choose modAL: pick one, but don't use random.
-->1 strategy: point closes to the hyperplane
+- Testing: waiting <1min; want it in seconds
 
-feedback for the report
-user: teams: not always
-- algo base (not the data)
-- fast overview all the data
-data evaliater: look from start to end; find for specific images; with this program , distribute of the video
-
-one layer of vgg16: output should be 2nd last or 3rd last
-->then feed it to the algo
-
-testing: waiting <1min; want it in seconds
-
-milestones: vertical instead of horizontal
+- Milestones: 
+    - We should develop vertically instead of horizontally
