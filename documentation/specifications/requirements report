@@ -61,3 +61,9 @@ Others
 (optional) A button for downloading the “Done training” AL algorithm.
 (optional) Build different user types.
 
+AL algorithm details
+(P1) AL algorithm should be able to intake image-label pairs as training data.
+(P2) AL algorithm should be able to intake images queried from the storage and predict the classes for each image.
+(P1) AL algorithm should be built from scratch with 1 or more Python libraries (TBD)
+(P1) AL algorithm should use one layer of the pre-trained VGG16 (Open source) for vectorizing images.
+(P1) AL algorithm should be built to be retrainable.
