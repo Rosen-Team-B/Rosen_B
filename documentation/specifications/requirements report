@@ -38,3 +38,14 @@ Assumptions & Definitions
 AL algorithm: The active learning algorithm.
 An iteration for the AL algorithm: Per training session. (Everything up until the submission to train/retrain)
 Performance: Not timewise. It is the accuracy of the AL algorithm (aka always return back correct images). Or, the number of iterations until the AL algorithm is marked by the user as “done training”.
+
+Product requirements
+Functional requirements
+Web application details
+(P1) The software should be a web application with a user interface.
+Classification details
+(P1) The web app should allow the user to upload an image and the name of the target item in that image as the label. 
+(P1) The web app should allow the user to submit the image-label pair to the AL algorithm to train the AL algorithm.
+(optional) The web app should allow the user to define how many images the algorithm will return.
+(P1) The web app should present a number of images (hardcode or (optional) user defined) pulled out from the storage. The images should have a predicted label from the AL algorithm in the form of “is_target” or “is_not_target” on each image.
+
