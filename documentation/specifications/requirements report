@@ -53,3 +53,11 @@ Classification details
 (P2) The web app should allow users to identify when the AL algorithm is done training. (i.g. A “i’m done training” button.)
 (optional) The web app should display information of the AL algorithm to help the user identify when the AL algorithm is done training.
 
+Others
+(P1) The storage should store images from the water pipeline inspection and vectors of images.
+(optional) Write a script to make 1 video to images with timestamp as the image name.
+(P1) The backend of the web app should query from the storage a number of images and feed them to the AL algorithm for prediction.
+(P2) The number of images either is hard code or (optional) user defined
+(optional) A button for downloading the “Done training” AL algorithm.
+(optional) Build different user types.
+
