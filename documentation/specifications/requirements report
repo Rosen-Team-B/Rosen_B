@@ -67,3 +67,12 @@ AL algorithm details
 (P1) AL algorithm should be built from scratch with 1 or more Python libraries (TBD)
 (P1) AL algorithm should use one layer of the pre-trained VGG16 (Open source) for vectorizing images.
 (P1) AL algorithm should be built to be retrainable.
+
+Non-functional requirements
+Code & Repository Setup 
+Source code integrated in a private source code management system (GitHub). 
+Including configuration and installation documentation in the GitHub.
+Software architecture and technical documentation.
+Following the principles of clean code.
+Maintainability: Suggesting that frontend written in JavaScript and backend written in Python.
+Build code based on the fact that potential users (i.g. admin) will be added in the future.
