@@ -14,3 +14,15 @@ User profile 2: Potential users
 Potentially, administrator.
 Project should be built based on the knowledge of adding more users with different privileges.
 
+Product Scope
+In the section we will clarify the focus of the project and rank priorities.
+Focus
+The focus is on the software rather than the algorithms. 
+The active learning algorithms do not need to be optimized.
+Lower priorities: authentication, security, installation package.
+Ranking priorities
+The highest priorities to lowest: 
+(P1) A must requested from Rosen 
+(P2) Developers priorities - what we think should be on the website (in order for website to work smoothly) 
+(P3/optional) wish list
+The goal is to achieve all requirements labeled as (P1) and as many (P2) as the develop team can. Features labeled as (P3) will be implemented if time allows and the other 2 priorities have been finished. For details, please check the product requirements section.
