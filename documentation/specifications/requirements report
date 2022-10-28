@@ -1,0 +1,16 @@
+Project Description
+Detailed Introduction to the Project
+The goal of the project is to develop a software system that enables Rosen data scientists to classify a large amount of images from water pipeline inspections in an efficient way. The classes should not be predefined by the software, instead they are defined by the user’s decisions. The software system should be supported by an active learning algorithm that uses one of the VGG16 layers to vectorize images.
+Project Perspective
+This is a new project that does not have to replace or build on any existing systems within Rosen.
+
+Users Regarding this Project
+User profile 1: Main users
+Job title: Data scientists in Rosen
+Tech: Fluent in Python
+Task: Given a section of the water pipeline inspection videos, make algorithms to classify images of objects.
+Working style: Data scientists in Rosen work in a team per inspection video to make multiple algorithms. 2 groups per algorithm.
+User profile 2: Potential users
+Potentially, administrator.
+Project should be built based on the knowledge of adding more users with different privileges.
+
