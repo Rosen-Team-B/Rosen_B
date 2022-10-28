@@ -129,3 +129,29 @@ M5 (backend + frontend wrap up) 1.5+1week
 (back) functions to retrain the model + API calls to the algorithm/ (algor) APIs- modifies (1)
 
 M6 wrap up and deployment documents
+
+Operating Environment & Test Strategy
+Tech Stack
+Frontend: React.js + TypeScript (catch error better, and better maintainability)
+Graphics visualization: D3.js
+Linter: Eslint
+Backend: Django
+Formatter: Black 
+Linter: Flake8 
+Database: MongoDB
+Hosting Location: Locally
+Testing
+Testing frameworks:
+Frontend: 
+Jest.js
+Backend: 
+Django unit testing
+Performance-testing-django python package
+Regression testing: GitHub Action
+Testing methods:
+Unit testing:
+Unit testing for new features in the frontend.
+Unit Testing for the backend done with Django Unit Testing initially, then as application grows more complex move to different testing if needed.
+Regression testing to ensure continuous integration		
+Load and stress testing to find failure point of application TBD?
+Performance tests for the time needed for one step of the active learning process. Done using performance-testing-django python package
