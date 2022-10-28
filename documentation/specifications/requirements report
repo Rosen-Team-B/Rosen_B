@@ -48,4 +48,8 @@ Classification details
 (P1) The web app should allow the user to submit the image-label pair to the AL algorithm to train the AL algorithm.
 (optional) The web app should allow the user to define how many images the algorithm will return.
 (P1) The web app should present a number of images (hardcode or (optional) user defined) pulled out from the storage. The images should have a predicted label from the AL algorithm in the form of “is_target” or “is_not_target” on each image.
+(P1) The web app should allow the user to mark the predicted labels of each image correctly.  For example: Add labels to all images as “I’m_interested” or “Not_interested”. The “I’m_interested” labels should be given to images with target items in it.
+(P1) The web app should allow the user to submit the images with “I’m_interested” or “Not_interested” labels back to the AL algorithm to retrain it.
+(P2) The web app should allow users to identify when the AL algorithm is done training. (i.g. A “i’m done training” button.)
+(optional) The web app should display information of the AL algorithm to help the user identify when the AL algorithm is done training.
 
