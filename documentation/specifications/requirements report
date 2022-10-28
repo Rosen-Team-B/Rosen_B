@@ -26,3 +26,15 @@ The highest priorities to lowest:
 (P2) Developers priorities - what we think should be on the website (in order for website to work smoothly) 
 (P3/optional) wish list
 The goal is to achieve all requirements labeled as (P1) and as many (P2) as the develop team can. Features labeled as (P3) will be implemented if time allows and the other 2 priorities have been finished. For details, please check the product requirements section.
+
+Dependencies (given to the dev team)
+Data/images to train the active learning algorithm:
+(optional) Blender Asset given by Rosen
+(optional) Random Videos online.
+Active learning algorithm:
+Python library: TBD.
+One layer of the pre-trained VGG16 (Open source)
+Assumptions & Definitions
+AL algorithm: The active learning algorithm.
+An iteration for the AL algorithm: Per training session. (Everything up until the submission to train/retrain)
+Performance: Not timewise. It is the accuracy of the AL algorithm (aka always return back correct images). Or, the number of iterations until the AL algorithm is marked by the user as “done training”.
