@@ -1,5 +1,5 @@
 #Ignore the logs directory
-# logs/
+/logs
 
 # Ignoring the password file
 # passwords.txt
