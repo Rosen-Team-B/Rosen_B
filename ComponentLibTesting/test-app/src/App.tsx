@@ -1,26 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "@blueprintjs/core"
+class App extends Component{
+  render(): React.ReactNode {
+      return(
+        
+        <div>
+          <h1>Hello World</h1>
+          <h4>ReactJS Blueprint Button Component</h4>
+        <Button>Sample Button</Button> <br></br>
+        <Button icon="refresh">Icon Button</Button>
+        <h4>ReactJS Blueprint Menu Component</h4>
+            <Menu className={Classes.ELEVATION_1}>
+                <MenuItem icon={<Icon icon="home" />} text="Home" />
+                <MenuDivider />
+                <MenuItem icon="new-link" text="WebLinks" />
+                <MenuItem icon="user" text="Profile" />
+                <MenuDivider />
+                <MenuItem icon="cog" text="Setting" />
+            </Menu>
+        
+        </div>
+        
+      )
+  }
 }
 
 export default App;
