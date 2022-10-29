@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import "@blueprintjs/core"
+import {Button, Menu, Classes, MenuItem, MenuDivider, 
+  Icon} from "@blueprintjs/core"
 class App extends Component{
   render(): React.ReactNode {
       return(

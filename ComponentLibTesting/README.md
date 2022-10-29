@@ -25,3 +25,7 @@ We can use it for like trimming and editing videos
 
 
 Headless UI: for tabs and whatnot
+
+
+GOIGN to test BLueprint now,
+installing on device
