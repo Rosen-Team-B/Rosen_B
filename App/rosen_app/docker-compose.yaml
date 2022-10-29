@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  rosen_app:
+    container_name: docker-rosen-c
+    image: docker-rosen-i
+    build:
+      context: .
+    ports:
+      - 3000:3000
