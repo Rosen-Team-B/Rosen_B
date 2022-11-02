@@ -10,7 +10,7 @@ Use this command in terminal to navigate to frontend
 
 ### `docker-compose build`
 
-This will build the container and install all dependencies
+This will build the container and install all dependencies. Run this command when docker desktop is active.
 
 ### `docker-compose up`
 
