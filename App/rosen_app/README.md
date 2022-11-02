@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Running the App
 
-Running will require the installation of Docker desktop
+Running will require the installation of Docker desktop: https://www.docker.com/products/docker-desktop/
 
 ### `docker-compose build`
 
