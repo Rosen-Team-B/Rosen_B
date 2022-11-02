@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Running will require the installation of Docker desktop: https://www.docker.com/products/docker-desktop/
 
+### `cd App/rosen_app`
+
+Use this command in terminal to navigate to frontend
+
 ### `docker-compose build`
 
 This will build the container and install all dependencies
