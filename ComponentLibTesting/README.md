@@ -37,3 +37,7 @@ Material UI most used, great documentation, image lists that will be useful when
 Ant Design drag and drop for uploading files (no bigger than 5mb though), card display we can use for displaying the images developed in typescript idk if we care about that or not
 
 Material UI decided
+
+Blueprint: used for data analysis, developed in typescript, hotkeys for shortvuts so if data scientists are wokring with a lot of data i think it would be cool to add like shortcuts for some repetitive tasks file upload stuff 
+Material UI most used, great documentation, image lists that will be useful when we're displaying images, couldnt find anything like it for the others, cards are also great for displaying clips and sich
+Ant Design drag and drop for uploading files (no bigger than 5mb though), card display we can use for displaying the images developed in typescript idk if we care about that or not
