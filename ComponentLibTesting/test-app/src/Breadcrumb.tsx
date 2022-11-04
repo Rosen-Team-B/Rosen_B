@@ -3,19 +3,27 @@ import Typography from '@mui/material/Typography';
 import Breadcrumbs from '@mui/material/Breadcrumbs';
 import Link from '@mui/material/Link';
 
-export const Breadcrumb = () => <div>
-    <Breadcrumbs aria-label="breadcrumb">
-  <Link underline="hover" color="inherit" href="/">
-    MUI
-  </Link>
-  <Link
-    underline="hover"
-    color="inherit"
-    href="/material-ui/getting-started/installation/"
-  >
-    Core
-  </Link>
-  <Typography color="text.primary">Breadcrumbs</Typography>
-</Breadcrumbs>
-</div>
-//export default Breadcrumb;
+function Breadcrumb(props: { num: any[]; cnum: number; addMsg: string }) {
+    const items = props.num.map((n,index) =>{
+        if(index+1==props.cnum){
+            return(
+                <Link underline="hover" color="inherit" href="/">
+                {n} : {props.addMsg}
+              </Link>   
+            )
+        }
+        else{
+            return(<Link underline="hover" color="inherit" href="/">
+            {n}
+          </Link>  )
+        }
+    }          
+    );
+    return (
+        <Breadcrumbs aria-label="breadcrumb"  separator=">" color = "white">
+        {items}
+        </Breadcrumbs>
+    );
+  }
+
+  export default Breadcrumb

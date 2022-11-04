@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Breadcrumb} from './Breadcrumb';
+import Breadcrumb from './Breadcrumb';
+
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <Breadcrumb/>
+        <Breadcrumb num={["Step 1", "Step 2", " Step 3", " Step 4", "Step 5"]} cnum={3} addMsg={'video ref'} />
         <a
           className="App-link"
           href="https://reactjs.org"
