@@ -16,3 +16,7 @@ Step3: vectorize images
 - instructions: add instruction to describe what this step does.  
 - "Vectorize the images" button: ask the data scientist click on the "Parse the video" button to parse the inspection video in the database into a lot of images.    
 - next button: the data scientist will click the "next" button to go the next page. A warning pop up will show up saying there's no way to go back to the previous pages since that we are not planning to make a "back" button. It will mess up the work flow and the program.  
+
+Step3.5: loading page (reused)
+
+
