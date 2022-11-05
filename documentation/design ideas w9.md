@@ -29,7 +29,8 @@ Step4.5: loading page (reused)
 
 Step5: The training page.   
 > Three taps or expandables (1) instructions tab (2) main windows (3 - optional) info of the algorithm in the current iteration  
-> The first iteration vs second+ iterations  
+> The first iteration vs second+ iterations    
+
 [First iteration]
 first tap/expandable  
 	- instructions: add instruction to describe what this step does.  
@@ -39,3 +40,4 @@ second tap/expandable
 	- "Retain button": show a warning button saying there is no undo pass this point.  
 	- (not now) "Termination" button  
 	- (not now) "Start new" button  
+-> Step5.5: loading page (reused)
