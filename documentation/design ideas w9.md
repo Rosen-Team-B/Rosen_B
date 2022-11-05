@@ -52,3 +52,13 @@ second tap/expandable
 	- "Retain button": show a warning button saying there is no undo pass this point.  
 	- (not now) "Termination" button	
 	- (not now) "Start new" button  
+	
+-----------
+Global componenets:
+1. heading: Rosen icon on the left & user on the right. In the future if time allows, add onto user (dropdown).
+2. breadcrume
+3. global red button: main function button (need to pass function down when used)
+4. global next button: (what color? transparent?)
+5. template for page 1- 4
+------------
+Other thoughts:
