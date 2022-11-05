@@ -19,4 +19,7 @@ Step3: vectorize images
 
 Step3.5: loading page (reused)
 
-
+Step4: Upload the reference image page
+- instructions: add instruction to describe what this step does.  
+- in take inputs: (1) the name of the classification (2) an "upload image" button: to upload the reference image (3 - optional) define the number of images to display in the next page.  
+- "Upload" button: ask the data scientist to click on this button once all the inputs are there.  
