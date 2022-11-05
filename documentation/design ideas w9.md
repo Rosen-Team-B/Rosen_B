@@ -40,4 +40,15 @@ second tap/expandable
 	- "Retain button": show a warning button saying there is no undo pass this point.  
 	- (not now) "Termination" button  
 	- (not now) "Start new" button  
+	
 -> Step5.5: loading page (reused)
+
+[Second+ iterations]  
+first tap/expandable  
+	- instructions: add instruction to describe what this step does.  
+second tap/expandable  
+	- click-able images in 2 scroll-able windows. (1) newly queried images (queried this iteration) (2) odd images queried from previous iterations.  
+	- a empty column: only when a image is selected will info of the image display on this column  
+	- "Retain button": show a warning button saying there is no undo pass this point.  
+	- (not now) "Termination" button	
+	- (not now) "Start new" button  
