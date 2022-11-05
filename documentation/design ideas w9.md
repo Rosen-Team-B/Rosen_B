@@ -25,3 +25,8 @@ Step4: Upload the reference image page
 - "Upload" button: ask the data scientist to click on this button once all the inputs are there.  
 
 Step4.5: loading page (reused)
+
+
+Step5: The training page.   
+> Three taps or expandables (1) instructions tab (2) main windows (3 - optional) info of the algorithm in the current iteration  
+> The first iteration vs second+ iterations  
