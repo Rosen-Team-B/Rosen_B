@@ -1,4 +1,4 @@
-<a href="[https://www.google.com/](https://www.figma.com/file/4YUn6GDTC9cfB3TkmRmvx0/Wireframe%2FUI-mokckup?node-id=37%3A2)" target="_blank">Link to mock up page </a>  
+<a href="https://www.google.com/](https://www.figma.com/file/4YUn6GDTC9cfB3TkmRmvx0/Wireframe%2FUI-mokckup?node-id=37%3A2" target="_blank">Link to mock up page </a>  
 key points for the UI:
 5 main pages: representing each step for the main tasks for the data scientists
 
