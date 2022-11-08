@@ -2,13 +2,12 @@ FROM node:latest
 
 WORKDIR /src
 
-COPY package.json .
-# COPY package-lock.json .
-# COPY . /src
+COPY rosen_app/package.json .
+COPY rosen_app/package-lock.json .
 
-RUN npm install
+RUN npm ci
 
-COPY . .
+COPY rosen_app/ .
 
 EXPOSE 3000
 
