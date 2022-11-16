@@ -1,9 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is the README for the frontend.
+
+# Dependencies to Install Before Running the App
+- NPM
+- Docker: Running will require the installation of Docker desktop: https://www.docker.com/products/docker-desktop/
+
 # Running the App
+### Dependencies
+Please do `npm install` after fetching or pulling from the remote branches.  
+DO NOT edit the package-lock.json file.
 
-Running will require the installation of Docker desktop: https://www.docker.com/products/docker-desktop/
-
+### Docker
 ### `cd App`
 
 Use this command in terminal to navigate to frontend
