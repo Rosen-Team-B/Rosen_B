@@ -8,13 +8,20 @@ This is the README for the frontend.
 
 # Running the App
 ### Dependencies
-Please do `npm install` after fetching or pulling from the remote branches.  
-DO NOT edit the package-lock.json file.
+### `cd App` 
+### `cd rosenFronted`
+
+Use the two command in terminal to navigate to frontend. 
+### `npm install`
+This command will install or reinstall dependencies listed in the package.json file.
+Please use this command after fetching or pulling from the remote branches.  
+
+WARNING: Do not edit the package-lock.json file.
 
 ### Docker
 ### `cd App`
 
-Use this command in terminal to navigate to frontend
+Use this command in terminal to navigate to the App for both frontend and backend.
 
 ### `docker-compose build`
 
