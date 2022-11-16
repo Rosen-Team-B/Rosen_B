@@ -1,12 +1,12 @@
 version: "3.8"
 
 services:
-  rosen_app:
+  rosenFrontend:
     container_name: docker-rosen-front-c
     image: docker-rosen-front-i
     build:
       context: .
-      dockerfile: rosen_app/Dockerfile
+      dockerfile: rosenFrontend/Dockerfile
     ports:
       - 3000:3000
   BE:
