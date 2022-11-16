@@ -23,3 +23,6 @@ This will build the container and install all dependencies. Run this command whe
 ### `docker-compose up`
 
 Actives container go to http://localhost:3000/ for frontend app
+
+### `ctrl + c`
+This will stop the container from running.
