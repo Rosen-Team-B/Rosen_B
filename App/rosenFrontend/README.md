@@ -18,6 +18,10 @@ Please use this command after fetching or pulling from the remote branches.
 
 WARNING: Do not edit the package-lock.json file.
 
+## Opening up in the browser
+Without docker (currently using this method).  
+Do `npm start` then open `localhost:3000/` instead of running docker.
+
 ### Docker
 ### `cd App`
 
