@@ -9,11 +9,11 @@ services:
       dockerfile: rosenFrontend/Dockerfile
     ports:
       - 3000:3000
-  BE:
+  rosen_backend:
     container_name: docker-rosen-back-c
     image: docker-rosen-back-i
     build:
       context: .
-      dockerfile: BE/Dockerfile
+      dockerfile: rosen_backend/Dockerfile
     ports:
       - "8000:8000"

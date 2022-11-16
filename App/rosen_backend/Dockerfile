@@ -1,13 +1,13 @@
 FROM python:3.11
 
-WORKDIR /BE
+WORKDIR /rosen_backend
 ENV PYTHONBUFFERED = 1
 
-COPY BE/requirements.txt .
+COPY rosen_backend/requirements.txt .
 
 RUN pip install -r requirements.txt
 
-COPY BE/ . 
+COPY rosen_backend/ . 
 
 EXPOSE 8000
 
