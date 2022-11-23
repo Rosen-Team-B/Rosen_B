@@ -22,11 +22,11 @@ const CustomButton = styled(ButtonUnstyled)`
   border: none;
 
   &:hover {
-    background-color: ${red[600]};
+    background-color: ${red[500]};
   }
 
   &.${buttonUnstyledClasses.active} {
-    background-color: ${red[700]};
+    background-color: ${red[500]};
   }
 
   &.${buttonUnstyledClasses.focusVisible} {
