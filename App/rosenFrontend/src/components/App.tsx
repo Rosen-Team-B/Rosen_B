@@ -6,7 +6,7 @@ import { Route } from "react-router-dom";
 function App() {
   return (
     // placeholder for future pages
-    <Stepper />
+    <Home />
   );
 }
 

@@ -4,13 +4,9 @@ import Stepper from "@mui/material/Stepper";
 import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
 
-const steps = [
-  "Select master blaster campaign settings",
-  "Create an ad group",
-  "Create an ad",
-];
+const steps = ["Step 1", "Step 2", "Step 3", "Step 4"];
 
-export default function HorizontalLabelPositionBelowStepper() {
+export default function progressiveStepper() {
   return (
     <Box sx={{ width: "100%" }}>
       <Stepper activeStep={1} alternativeLabel>
