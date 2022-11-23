@@ -1,7 +1,7 @@
 import React from "react";
 
-function Step1() {
+function Home() {
   return <p>placeholder</p>;
 }
 
-export default Step1;
+export default Home;
