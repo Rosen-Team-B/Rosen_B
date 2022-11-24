@@ -5,8 +5,8 @@ import ButtonUnstyled, {
 import { styled } from "@mui/system";
 import Stack from "@mui/material/Stack";
 import { Button } from "@mui/material";
-import { ButtonTypeMap } from "../../../../node_modules/@mui/material/Button/Button";
-import { ButtonBaseTypeMap } from "../../../../node_modules/@mui/material/ButtonBase/ButtonBase";
+import { ButtonTypeMap } from "@mui/material/Button/Button";
+import { ButtonBaseTypeMap } from "@mui/material/ButtonBase/ButtonBase";
 //"App\rosenFrontend\node_modules\@mui\material\Button\Button.d.ts"
 
 const red = {

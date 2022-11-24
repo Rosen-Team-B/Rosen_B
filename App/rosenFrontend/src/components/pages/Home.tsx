@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import GeneralButton from "../shared/button/submitButton";
+import GeneralButton from "../shared/button/Button";
 import { RoutePaths } from "../../constants/routes";
 
 function Home() {
