@@ -4,12 +4,15 @@ import ButtonUnstyled, {
 } from "@mui/base/ButtonUnstyled";
 import { styled } from "@mui/system";
 import Stack from "@mui/material/Stack";
+import { Button, withStyles } from "@mui/material";
+import { ButtonTypeMap } from "../../../../node_modules/@mui/material/Button/Button";
+//"App\rosenFrontend\node_modules\@mui\material\Button\Button.d.ts"
 
 const red = {
   500: "#FF0000",
 };
 
-const CustomButton = styled(ButtonUnstyled)`
+const ExampleButton = styled(ButtonUnstyled)`
   font-family: IBM Plex Sans, sans-serif;
   font-weight: bold;
   font-size: 0.875rem;
@@ -41,11 +44,19 @@ const CustomButton = styled(ButtonUnstyled)`
   }
 `;
 
-export default function SimpleButton() {
-  return (
-    <Stack spacing={2} direction="row">
-      <CustomButton>Button</CustomButton>
-      {/* <CustomButton disabled>Disabled</CustomButton> */}
-    </Stack>
-  );
+interface buttonProps extends ButtonTypeMap {
+  onClick: () => void;
 }
+
+const GeneralButton = withStyles({});
+
+export default GeneralButton;
+
+// export default function SimpleButton() {
+//   return (
+//     <Stack spacing={2} direction="row">
+//       <CustomButton>Button</CustomButton>
+//       {/* <CustomButton disabled>Disabled</CustomButton> */}
+//     </Stack>
+//   );
+// }
