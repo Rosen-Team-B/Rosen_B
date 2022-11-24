@@ -3,11 +3,7 @@ import ButtonUnstyled, {
   buttonUnstyledClasses,
 } from "@mui/base/ButtonUnstyled";
 import { styled } from "@mui/system";
-import Stack from "@mui/material/Stack";
 import { Button } from "@mui/material";
-import { ButtonTypeMap } from "@mui/material/Button/Button";
-import { ButtonBaseTypeMap } from "@mui/material/ButtonBase/ButtonBase";
-//"App\rosenFrontend\node_modules\@mui\material\Button\Button.d.ts"
 
 const red = {
   500: "#FF0000",
@@ -44,18 +40,6 @@ const ExampleButton = styled(ButtonUnstyled)`
     cursor: not-allowed;
   }
 `;
-
-interface buttonProps extends ButtonTypeMap {
-  onClick: () => void;
-  border: string;
-  color: string;
-  children?: React.ReactNode;
-  height: string;
-  radius: string;
-  width: string;
-  padding: string;
-  background: string;
-}
 
 const GeneralButton = ({
   onClick,
