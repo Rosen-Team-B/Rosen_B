@@ -6,7 +6,14 @@ import StepLabel from "@mui/material/StepLabel";
 
 const steps = ["Step 1", "Step 2", "Step 3", "Step 4"];
 
-export default function progressiveStepper() {
+const ProgressiveStepper = (props: any): React.ReactElement => {
+  /** Local States  */
+  const [activeStep, setActiveStep] = React.useState(0);
+
+  /** Handle Functions */
+  function nextButton() {
+    setActiveStep(activeStep + 1);
+  }
   return (
     <Box sx={{ width: "100%" }}>
       <Stepper activeStep={1} alternativeLabel>
@@ -18,4 +25,6 @@ export default function progressiveStepper() {
       </Stepper>
     </Box>
   );
-}
+};
+
+export default ProgressiveStepper;
