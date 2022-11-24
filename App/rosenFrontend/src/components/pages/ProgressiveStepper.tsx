@@ -50,9 +50,7 @@ const ProgressiveStepper = (props: any): React.ReactElement => {
   }
 
   function backButton() {
-    activeStep < steps.length - 1 && activeStep >= 0
-      ? setActiveStep(activeStep - 1)
-      : setActiveStep(activeStep);
+    activeStep >= 0 ? setActiveStep(activeStep - 1) : setActiveStep(activeStep);
   }
   return (
     <React.Fragment>
@@ -68,9 +66,13 @@ const ProgressiveStepper = (props: any): React.ReactElement => {
         </Box>
       </React.Fragment>
       <React.Fragment>
-        <Box>
-          <Item>temp text</Item>
-        </Box>
+        {activeStep == 1 ? (
+          <Box>
+            <Item>this is step 2</Item>
+          </Box>
+        ) : (
+          <Item>other step text</Item>
+        )}
       </React.Fragment>
       <React.Fragment>
         <GeneralButton
