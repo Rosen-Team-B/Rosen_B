@@ -8,13 +8,9 @@ function Home() {
     <>
       <Link to={RoutePaths.Stepper}>
         <GeneralButton
-          border="none"
           color="pink"
-          height="200px"
-          onClick={() => console.log("You clicked on the pink circle!")}
-          radius="50%"
-          width="200px"
-          children="I'm here"
+          onClick={() => console.log("You clicked on the button")}
+          children="Stepper"
         />
       </Link>
     </>
