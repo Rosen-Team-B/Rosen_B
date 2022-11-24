@@ -4,8 +4,9 @@ import ButtonUnstyled, {
 } from "@mui/base/ButtonUnstyled";
 import { styled } from "@mui/system";
 import Stack from "@mui/material/Stack";
-import { Button, withStyles } from "@mui/material";
+import { Button } from "@mui/material";
 import { ButtonTypeMap } from "../../../../node_modules/@mui/material/Button/Button";
+import { ButtonBaseTypeMap } from "../../../../node_modules/@mui/material/ButtonBase/ButtonBase";
 //"App\rosenFrontend\node_modules\@mui\material\Button\Button.d.ts"
 
 const red = {
@@ -46,10 +47,39 @@ const ExampleButton = styled(ButtonUnstyled)`
 
 interface buttonProps extends ButtonTypeMap {
   onClick: () => void;
+  border: string;
+  color: string;
+  children?: React.ReactNode;
+  height: string;
+  radius: string;
+  width: string;
 }
 
-const GeneralButton = withStyles({});
-
+const GeneralButton = ({
+  onClick,
+  border,
+  color,
+  children,
+  height,
+  radius,
+  width,
+}: any): React.ReactElement => {
+  return (
+    <Button
+      onClick={onClick}
+      style={{
+        backgroundColor: color,
+        border,
+        borderRadius: radius,
+        height,
+        width,
+      }}
+    >
+      {children}
+    </Button>
+  );
+};
+// props={undefined} defaultComponent={"button"}
 export default GeneralButton;
 
 // export default function SimpleButton() {

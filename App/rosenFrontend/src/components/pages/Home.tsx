@@ -7,7 +7,15 @@ function Home() {
   return (
     <>
       <Link to={RoutePaths.Stepper}>
-        <GeneralButton>here</GeneralButton>
+        <GeneralButton
+          border="none"
+          color="pink"
+          height="200px"
+          onClick={() => console.log("You clicked on the pink circle!")}
+          radius="50%"
+          width="200px"
+          children="I'm here"
+        />
       </Link>
     </>
   );
