@@ -67,8 +67,17 @@ const ProgressiveStepper = (props: any): React.ReactElement => {
       </React.Fragment>
       <React.Fragment>
         {activeStep == 1 ? (
-          <Box>
-            <Item>this is step 2</Item>
+          <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+              p: 1,
+              m: 1,
+              bgcolor: "background.paper",
+              borderRadius: 1,
+            }}
+          >
+            <Item>Step 2 text</Item>
           </Box>
         ) : (
           <Item>other step text</Item>
