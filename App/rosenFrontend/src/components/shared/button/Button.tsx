@@ -53,6 +53,8 @@ interface buttonProps extends ButtonTypeMap {
   height: string;
   radius: string;
   width: string;
+  padding: string;
+  background: string;
 }
 
 const GeneralButton = ({
@@ -63,12 +65,16 @@ const GeneralButton = ({
   height,
   radius,
   width,
+  background,
+  padding,
 }: any): React.ReactElement => {
   return (
     <Button
       onClick={onClick}
       style={{
-        backgroundColor: color,
+        background: background,
+        padding: padding,
+        color: color,
         border,
         borderRadius: radius,
         height,
