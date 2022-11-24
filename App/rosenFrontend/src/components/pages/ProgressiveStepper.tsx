@@ -16,7 +16,7 @@ const ProgressiveStepper = (props: any): React.ReactElement => {
   }
   return (
     <Box sx={{ width: "100%" }}>
-      <Stepper activeStep={1} alternativeLabel>
+      <Stepper activeStep={activeStep} alternativeLabel>
         {steps.map((label) => (
           <Step key={label}>
             <StepLabel>{label}</StepLabel>
