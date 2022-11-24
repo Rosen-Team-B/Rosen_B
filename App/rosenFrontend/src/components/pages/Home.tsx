@@ -1,11 +1,14 @@
 import React from "react";
-import SimpleButton from "../shared/button/submitButton";
+import { Link } from "react-router-dom";
+import GeneralButton from "../shared/button/submitButton";
+import { RoutePaths } from "../../constants/routes";
 
 function Home() {
   return (
     <>
-      <SimpleButton />
-      <p>placeholder</p>
+      <Link to={RoutePaths.Stepper}>
+        <GeneralButton>here</GeneralButton>
+      </Link>
     </>
   );
 }

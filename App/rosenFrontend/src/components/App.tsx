@@ -2,11 +2,16 @@ import React from "react";
 import "../styles/App.css";
 import Home from "./pages/Home";
 import Stepper from "./pages/Stepper";
-import { Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 function App() {
   return (
-    // placeholder for future pages
-    <Home />
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="Stepper" element={<Stepper />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
