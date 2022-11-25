@@ -25,6 +25,7 @@
 
     },
     "Step5" : {
+        "main":"These are the images that matched the reference.\nSelect/Deselect the images that are not correct, and click submit. \nClick Finish when you are satisfied."
 
     }
 }
