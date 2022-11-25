@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/App.css";
 import Home from "./pages/Home";
-import Stepper from "./pages/Stepper";
+import Stepper from "./pages/ProgressiveStepper";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
