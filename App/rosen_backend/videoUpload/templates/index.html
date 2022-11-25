@@ -12,7 +12,14 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
-
+    <hr>
+    <div class = "container">
+      {% for x in videoUpload %}
+      <video class="embed-responsive embed-responsive-16by9" controls="controls">
+        <source src="{{x.video.url}}" type="video/mp4">
+      </video>
+      {% endfor %}
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
