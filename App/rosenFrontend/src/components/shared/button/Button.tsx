@@ -3,13 +3,13 @@ import ButtonUnstyled, {
   buttonUnstyledClasses,
 } from "@mui/base/ButtonUnstyled";
 import { styled } from "@mui/system";
-import Stack from "@mui/material/Stack";
+import { Button } from "@mui/material";
 
 const red = {
   500: "#FF0000",
 };
 
-const CustomButton = styled(ButtonUnstyled)`
+const ExampleButton = styled(ButtonUnstyled)`
   font-family: IBM Plex Sans, sans-serif;
   font-weight: bold;
   font-size: 0.875rem;
@@ -41,11 +41,42 @@ const CustomButton = styled(ButtonUnstyled)`
   }
 `;
 
-export default function SimpleButton() {
+const GeneralButton = ({
+  onClick,
+  border,
+  color,
+  children,
+  height,
+  radius,
+  width,
+  background,
+  padding,
+}: any): React.ReactElement => {
   return (
-    <Stack spacing={2} direction="row">
-      <CustomButton>Button</CustomButton>
-      {/* <CustomButton disabled>Disabled</CustomButton> */}
-    </Stack>
+    <Button
+      onClick={onClick}
+      style={{
+        background: background,
+        padding: padding,
+        color: color,
+        border,
+        borderRadius: radius,
+        height,
+        width,
+      }}
+    >
+      {children}
+    </Button>
   );
-}
+};
+// props={undefined} defaultComponent={"button"}
+export default GeneralButton;
+
+// export default function SimpleButton() {
+//   return (
+//     <Stack spacing={2} direction="row">
+//       <CustomButton>Button</CustomButton>
+//       {/* <CustomButton disabled>Disabled</CustomButton> */}
+//     </Stack>
+//   );
+// }
