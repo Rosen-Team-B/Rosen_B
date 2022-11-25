@@ -12,12 +12,16 @@
 
     },
     "Step3" : {
-        "main":"",
-        "warning":"",
-        "complete":""
+
+        "main":"The images generated from Step 3 will; now be converted to vectors so they can be read by the machine learning algortihm. Depending on the number of images, this may take upto several minutes!",
+        "warning":"There was a problem!",
+        "complete":"Images have been vectorized! Click Next!"
 
     },
     "Step4" : {
+        "main":"Upload a reference image. The algorithm will return a gallery of images that are similar to the reference image. If you would like the algorithm to detect all the fish in the pipeline, submit a picture of a fish!\nSupported formats are: ???" ,
+        "warning": "There was a problem! File not supported!",
+        "complete":"Image accepted. Click Next!"
 
     },
     "Step5" : {
