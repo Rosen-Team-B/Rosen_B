@@ -1,0 +1,31 @@
+{
+    "Step1" : {
+
+        "main": "Confirm that the video exists in the database.\n Navigate to the Django Admin Page and ensure that the video is listed in “???”\nSupported formats are ???",
+        "warning":"Warning! Video not found in database!"
+
+    },
+    "Step2" : {
+        "main":"The video will now be parsed into images. Depending on the length of the video, this may take several minutes!\nClick OK to continue.",
+        "warning":"There was a problem!",
+        "complete": "Video has been parsed. Click Next!"
+
+    },
+    "Step3" : {
+
+        "main":"The images generated from Step 3 will; now be converted to vectors so they can be read by the machine learning algortihm. Depending on the number of images, this may take upto several minutes!",
+        "warning":"There was a problem!",
+        "complete":"Images have been vectorized! Click Next!"
+
+    },
+    "Step4" : {
+        "main":"Upload a reference image. The algorithm will return a gallery of images that are similar to the reference image. If you would like the algorithm to detect all the fish in the pipeline, submit a picture of a fish!\nSupported formats are: ???" ,
+        "warning": "There was a problem! File not supported!",
+        "complete":"Image accepted. Click Next!"
+
+    },
+    "Step5" : {
+        "main":"These are the images that matched the reference.\nSelect/Deselect the images that are not correct, and click submit. \nClick Finish when you are satisfied."
+
+    }
+}
