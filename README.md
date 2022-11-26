@@ -73,3 +73,16 @@ Regression testing to make sure new features do not break old code
    Since the intended use for the application involves working with large amounts of data, load and stress testing will be conducted to find the failure point.
 
 \*\*\* If performance is not satisfactory or upto client’s standards by these metrics we will investigate more machine learning techniques and algorithms to integrate into the system.
+
+
+## Tech Stack
+● Frontend: React.js + TypeScript (catch error better, and better maintainability)
+○ Graphics visualization: D3.js
+○ Linter: Eslint
+
+● Backend: Django
+○ Formatter: Black
+○ Linter: Flake8
+● Database: MongoDB + Vector Database
+● Hosting Location: Locally
+
