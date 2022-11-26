@@ -5,7 +5,8 @@ import Step from "@mui/material/Step";
 import StepLabel from "@mui/material/StepLabel";
 import GeneralButton from "../shared/button/Button";
 import { ListItem } from "@mui/material";
-
+import { Button } from "@mui/material"
+import { TextField } from "@mui/material"
 const steps = [
   "Step 1: Video in Database",
   "Step 2: Video Parsing",
@@ -77,11 +78,68 @@ const ProgressiveStepper = (props: any): React.ReactElement => {
               borderRadius: 1,
             }}
           >
-            <Item>Step 2 text</Item>
+            <Item>The video will now be parsed into images. Depending on the length of the video, this may take several minutes!
+              Click Next to continue.</Item>
           </Box>
-        ) : (
-          <Item>other step text</Item>
-        )}
+        ) :
+          activeStep == 2 ? (
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                p: 1,
+                m: 1,
+                bgcolor: "background.paper",
+                borderRadius: 1,
+              }}
+            >
+              <Item>The images generated from Step 3 will now be converted to vectors so they can be read by the machine learning algortihm. Depending on the number of images, this may take upto several minutes! Click Next to Continue</Item>
+            </Box>
+          ) :
+            activeStep == 3 ? (
+              <Box
+                sx={{
+                  display: "flex",
+                  justifyContent: "left",
+                  p: 1,
+                  m: 1,
+                  bgcolor: "background.paper",
+                  borderRadius: 1,
+                }}
+              >
+                <Item>Upload a reference image. The algorithm will return a gallery of images that are similar to the reference image. If you would like the algorithm to detect all the fish in the pipeline, submit a picture of a fish! Supported formats are: ???</Item>
+                <TextField
+                  required
+                  id="outlined-required"
+                  label="Required"
+                  defaultValue="label1"
+                />
+                <Button
+                  variant="contained"
+                  component="label"
+                  size="small"
+                >
+                  Upload Image
+                  <input hidden accept="image/*" multiple type="file" />
+                </Button>
+
+              </Box>
+            ) :
+              (
+                <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                p: 1,
+                m: 1,
+                bgcolor: "background.paper",
+                borderRadius: 1,
+              }}
+            >
+                <Item>Confirm that the video exists in the database. Navigate to the Django Admin Page and ensure that the video is listed in “???” Supported formats are ???</Item>
+                </Box>
+              )
+              }
       </React.Fragment>
       <React.Fragment>
         <GeneralButton
