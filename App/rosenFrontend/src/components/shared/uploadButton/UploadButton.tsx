@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 const UploadButton = () => {
     return (
     <Button variant="contained" component="label">
-        Upload
+        Upload Image
         <input hidden accept="image/*" multiple type="file" />
     </Button>
     );
