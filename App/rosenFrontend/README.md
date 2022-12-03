@@ -4,7 +4,7 @@ This is the README for the frontend.
 
 # Notice about folder
 
-The current work in this folder is not reflective of submitted work and is only for drafting and practice purposes only. Currently only has React and React router packages and will later require material UI packages
+The current work in this folder is not reflective of submitted work and is only for drafting and practice purposes only. Currently only has React and React router packages and will later require material UI packages to be installed. Folder will remain as practice until final build is made.
 
 # Dependencies to Install Before Running the App
 
