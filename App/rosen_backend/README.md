@@ -4,6 +4,8 @@ This project was bootstrapped with [Django](https://www.djangoproject.com/start/
 
 This is the README for the backend.
 
+This project runs on Django and the DjangoREST framework. DjangoREST is dependent on a Django environment.
+
 ## Dependencies to Install Before Running the App
 - Python3> or later : Ensure your local device has a Python3 version or newer
 - Docker: Running will require the installation of Docker desktop: https://www.docker.com/products/docker-desktop/
