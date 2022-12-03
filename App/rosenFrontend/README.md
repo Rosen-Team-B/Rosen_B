@@ -4,7 +4,7 @@ This is the README for the frontend.
 
 # Notice about folder
 
-The current work in this folder is not reflective of submitted work and is only for drafting purposes
+The current work in this folder is not reflective of submitted work and is only for drafting and practice purposes only.
 
 # Dependencies to Install Before Running the App
 
