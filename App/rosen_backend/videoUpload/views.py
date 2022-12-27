@@ -1,9 +1,9 @@
 from django.shortcuts import render
-from .models import VideoUpload
+from .models import VideoUploadModel
 # Create your views here.
 from django.http import HttpResponse
 
 
 def index(request):
-    vid = VideoUpload.objects.all()
+    vid = VideoUploadModel.objects.all()
     return render(request,"index.html",{"video":vid})
