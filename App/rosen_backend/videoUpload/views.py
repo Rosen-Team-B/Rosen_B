@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from .models import VideoUploadModel
-from serializers import VideoUploadModelSerializer
+from .serializers import VideoUploadModelSerializer
 from django.http import HttpResponse
 from rest_framework.decorators import api_view,parser_classes
+from rest_framework.parsers import FileUploadParser
 
 
 def index(request):
