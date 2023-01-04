@@ -1,9 +1,17 @@
 from django.shortcuts import render
 from .models import VideoUploadModel
-# Create your views here.
+from serializers import VideoUploadModelSerializer
 from django.http import HttpResponse
+from rest_framework.decorators import api_view,parser_classes
 
 
 def index(request):
     vid = VideoUploadModel.objects.all()
     return render(request,"index.html",{"video":vid})
+
+@api_view(["GET","POST"])
+@parser_classes([FileUploadParser])
+def dummy(request):
+    video = VideoUploadModel.objects.all()
+    serializer = VideoUploadModelSerializer(video,many=False)
+    return HttpResponse(serializer.data)
